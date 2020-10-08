@@ -1,0 +1,319 @@
+/* BASE  --------------------------------------------------------------------------------*/
+
+.bg_cover{position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;}
+.midline{ position: relative;}
+.container{position: relative;}
+
+
+.text_center{ text-align: center}
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+.landing-page{ padding-top:0px; }
+.TOP_BAR_LANDING{ background:#ffd800; height:7px;}
+.TOP_BAR_LANDING .logo{ background:rgba(255,255,255,1.00); padding:10px 15px 65px; border-radius:0px 0px 5px 5px; margin:0; /*margin-left:35px;*/}
+
+
+.TOP_BAR_LANDING.midline{ padding:0;}
+.TOP_BAR_LANDING.midline .box{ position:relative; /*background:rgba(241,145,146,1.00);*/ }
+
+
+.landing-page .sites_list li{box-shadow: 0px 1px 4px 0px rgba( 0, 0, 1, 0.4 ); margin:0 0 30px 0; padding:0; background:#fff; /*height:100%;*/}
+
+
+.landing-page .sites_list .visit{ }
+
+
+
+
+.header_bg {
+	min-height:500px;
+	background:url(../images/header_bg.jpg) top center no-repeat;
+	background-size:cover;
+	padding-top:1px !important;
+}
+
+
+.slogan_header {
+	padding:70px 40px 0;
+	background:url(../images/slogan_stars.png) top center no-repeat;
+	text-align:center;
+	color:#fff;
+	margin:30px auto 0;
+	max-width:1000px;
+}
+
+.slogan_header h1 {
+	color:inherit;
+	font-size:55px;
+	margin:0;
+	font-weight:bold;
+}
+.slogan_header h2 {
+	color:inherit;
+	font-size:36px;
+}
+.slogan_header .deco {
+	color:#fff993;
+}
+.slogan_header p {
+	line-height:160%;
+}
+
+.left_float {
+	float:left;
+	width:calc(100% - 330px);
+	padding:35px;
+
+
+}
+.landing-page .sites_list {
+	margin:-150px 0 0 0;
+}
+.landing-page .sites_list img {
+	width:auto;
+	max-width:375px;
+	border:none;
+	box-shadow:none;
+	margin-left:-55px;
+}
+.landing-page .sites_list a.img { float:left;}
+.landing-page .sites_list .text {
+	padding:0;
+	/*float:left;*/
+	margin-left:350px;
+}
+
+.landing-page .sites_list .img{ position:relative; border:none;}
+.landing-page .sites_list .img img{ border:none;}
+.landing-page .sites_list .number{position:absolute; right:0; top:-25px; background:#fff; padding:5px; border-radius:75px; display:inline-block;  box-shadow: 3px 3px 7px 0px rgba( 0, 0, 1, 0.2 ); text-align:center;}
+.landing-page .sites_list .number div{border:7px solid #e0e0e0; color:#bbbbbb; border-radius:75px; width:75px; height:75px; line-height:165%; font-size:36px;}
+
+/* colors */
+.landing-page .sites_list li:nth-child(1) .number div{ border-color:#ffcc33; color:#ffcc33; }
+.landing-page .sites_list li:nth-child(2) .number div{ border-color:#a5c961; color:#a5c961; }
+.landing-page .sites_list li:nth-child(3) .number div{ border-color:#89d5d6; color:#89d5d6; }
+
+.landing-page .sites_list li{ background:#fff url(../images/bg_rate_n.png) top right repeat-y; }
+.landing-page .sites_list li:nth-child(1) { background-image:url(../images/bg_rate_01.png);}
+.landing-page .sites_list li:nth-child(2) { background-image:url(../images/bg_rate_02.png);}
+.landing-page .sites_list li:nth-child(3) { background-image:url(../images/bg_rate_03.png);}
+
+
+/*
+.landing-page .sites_list ul{ counter-reset: li;}
+.landing-page .sites_list ul li:before .number div:before{counter-increment: li; content: counters(li,".");}
+*/
+
+
+
+
+
+.landing-page .sites_list .text p {
+	line-height:160%;
+	color:#333333;
+	margin:0 0 15px 0;
+}
+.landing-page .sites_list .text a.site_lnk {
+	color: #00a4aa;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom:15px;
+}
+.landing-page .sites_list .text a {
+	color:#333333;
+	font-size:16px;
+	font-weight:400;
+}
+
+.landing-page .sites_list li {
+	position:relative;
+	/* background:#fff; */
+	border-radius:5px;
+}
+
+.landing-page .sites_list li .right_side_pos {
+	position:relative;
+
+	z-index:1;
+	float:right;
+	/*background:#f5f5f5;*/
+	width:310px;
+	padding:30px;
+	/*border-left:1px dashed #c9c9c9;
+	height:100%;*/
+}
+.landing-page .sites_list li:first-child .right_side_pos {
+	/*background:#fffcd4; */
+}
+.landing-page .sites_list .rating {
+	position:relative;
+	top:auto;
+	right:auto;
+	width:auto;
+	text-align:center;
+}
+
+.landing-page .sites_list .cur_rating {
+	display:inline-block;
+}
+.landing-page .sites_list .btn_pos { text-align:center; position:relative; display:inline-block;}
+.landing-page .sites_list li:first-child .btn_pos{ margin-left:60px;}
+.landing-page .sites_list li:first-child .btn_pos::after {
+	content:"";
+	width:95px;
+	height:75px;
+	background:url(../images/top_rate_deco.png) top center no-repeat;
+	position:absolute;
+	left:-75px; top:-25px;
+	z-index:1;
+}
+.landing-page  .visit {
+	position:relative;
+	top:auto;
+	left:auto;
+	right:auto;
+	bottom:auto;
+	font-size:20px;
+	font-weight:600;
+	line-height:100%;
+	max-width:none;
+	padding:12px 22px;
+	box-shadow: 0px 2px 6px 0px rgba( 0, 0, 0, 0.1 );
+	border:1px solid #66cc00;
+}
+.landing-page .visit:hover{
+	background:#66cc00;
+	color:#fff;
+	box-shadow: 0px 2px 6px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+
+.wahl {
+	display:inline-block;
+	vertical-align:top;
+	font-size:14px;
+	color:#999999;
+	float:right;
+}
+.wahl b {
+	display:block;
+	color:#689e00;
+}
+.landing-page .sites_list .plus_list {
+	padding:20px 0 ;
+	text-align:left;
+	display:inline-block;
+}
+.landing-page .sites_list .plus_list li {
+	min-height:auto;
+	box-shadow:none;
+	padding:0 0 0 25px;
+	margin:0 0 10px 0;
+	font-size:14px;
+	color:#333333;
+	background:url(../images/ne_ok.png) 2px 2px no-repeat;
+}
+.landing-page .sites_list .plus_list li.ok {
+	background:url(../images/ok.png) 2px 2px no-repeat;
+}
+
+.seo-txt h2 { font-size:28px; font-weight:bold;}
+.seo-txt p { font-size:16px; line-height:160%;}
+
+
+@media screen and (max-width:1200px){
+.landing-page .sites_list img { max-width:300px}
+.landing-page .sites_list .text{ margin-left:270px;}
+
+.landing-page .sites_list .text a.site_lnk{ font-size:20px;}
+}
+
+
+@media screen and (max-width:960px){
+/* img */
+.landing-page .sites_list a.img{ text-align:center; padding:0; margin:0; }
+.landing-page .sites_list a.img img{text-align:center; margin:0; padding:0; display:inline-block;}
+.landing-page .sites_list .text{ margin-left:0;}
+
+.landing-page .sites_list .number{right:-30px; top: inherit; bottom:-25px;}
+
+
+}
+
+
+
+@media screen and (max-width:768px){
+
+.landing-page .sites_list a.img{ float:none;}
+.landing-page .sites_list img { max-width:375px}
+.landing-page .sites_list .text a.site_lnk{ font-size:24px;}
+
+
+
+/* colors */
+.landing-page .sites_list > li{ background:#fff !important;}
+.landing-page .sites_list li .right_side_pos{ background:#f5f5f5;}
+.landing-page .sites_list li:nth-child(1) .right_side_pos { background:#fffcd4;}
+.landing-page .sites_list li:nth-child(2) .right_side_pos{ background:#edf5de;}
+.landing-page .sites_list li:nth-child(3) .right_side_pos{ background:#e8f6f6;}
+
+
+.left_float { width:100%;}
+.landing-page .sites_list { margin:0 auto;}
+.landing-page .sites_list img { float:none; max-width:100%;}
+.landing-page .sites_list .text { padding:0; float:none;}
+.landing-page .sites_list li .right_side_pos {border:none; width:100%;  }
+.landing-page .sites_list .rating .left { display:block; width:100%; text-align:center;}
+.landing-page .sites_list a { display:inline-block;}
+.landing-page .sites_list .rating { padding:0;}
+
+.header_bg {
+	background:#fff !important;
+  background-image: none !important;
+	min-height:auto;
+}
+.slogan_header {
+	color:#6c7b7c;
+	padding:50px 20px 50px 20px;
+	margin:0;
+	background:url(../images/slogan_stars_mob.png) top center no-repeat;
+}
+.slogan_header h1 {
+	font-size:28px;
+}
+.slogan_header h2 {
+	font-size:20px;
+}
+.slogan_header .deco {
+	color:#93b77f;
+}
+.slogan_header p {
+	font-size:14px;
+}
+
+.seo-txt h2 { font-size:22px;}
+.seo-txt p { font-size:14px;}
+
+.TOP_BAR_LANDING .logo{ right:0; margin:0 auto;}
+.landing-page .slogan_header{ margin-top:70px}
+
+
+}
+
+@media screen and (max-width:400px){
+	.landing-page .sites_list li{ box-shadow: 0px 3px 3px 0px rgba( 0, 0, 0, 0.2 ); border:none;}
+	.landing-page .left_float{ padding:15px; }
+	.landing-page .midline{ padding:0;}
+	.landing-page .content-txt{ padding:15px}
+
+	.landing-page .logo{ max-width:250px; width:auto;}
+
+	.landing-page .midline.FOOTER{ padding:25px}
+
+	.landing-page .sites_list .number{right:-5px; top: inherit; bottom:-15px;}
+	.landing-page .sites_list .number div{border-radius:55px; width:55px; height:55px; line-height:145%; font-size:30px;}
+
+}

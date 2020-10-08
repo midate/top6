@@ -1,0 +1,24 @@
+.bottom_banner .ok-btn{
+    background-color: #b5eb4c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.bottom_banner i.fa-times{
+    display: none;
+}
+
+.bottom_banner p{ display: inline !important;}
+
+
+@media screen and (max-width:576px){
+
+	.bottom_banner .ok-btn{
+	    font-size: 16px;
+	    padding: 5px 10px;
+	}
+
+}
